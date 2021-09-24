@@ -6,16 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Demo</title>
+    <style>
+        body {
+            background-color: slateblue;
+        }
+        
+        #blue-text {
+            color: blue;
+        }
+        
+        #red-text {
+            color: red;
+        }
+        
+        .small-text {
+            font-size: x-small;
+        }
+        
+        #multi-text {
+            font-size: 24px;
+            color: orange;
+            text-align: center;
+        }
+        
+        .joediv {
+            color: red;
+            text-align: center;
+        }
+        
+        .large-green {
+            color: green;
+            font-size: xx-large;
+        }
+    </style>
 </head>
 
 <body>
     <h1>today you will figure out about adding style</h1>
     <h2>do you remember how we add style with inline css?</h2>
-    <p style="color:blue">i want this tex to be blue</p>
+    <p style="color:blue">i want this text to be blue</p>
     <p style="color:red">i want this text to be red</p>
     <p style="font-size:xx-large">i want this text to be really big</p>
     <p style="font-size:x-small">i want this text to be really small</p>
     <p style="font-size:24px; color:orange; text-align: center;">i want this to be orange 24px and centered</p>
+
+    <h1>today you will figure out about adding style</h1>
+    <h2>do you remember how we add style with internal css?</h2>
+    <p id="blue-text">i want this text to be blue</p>
+    <p id="red-text">i want this text to be red</p>
+    <p class="small-text">i want this text to be really small</p>
+    <p class="small-text">i want this text to be really small</p>
+    <p id="multi-text">i want this to be orange 24px and centered</p>
+
+
+    <h2>this is how you use divs and spans</h2>
+    <div class="joediv">
+        <h3>this header is part of a div</h3>
+        <p>this paragraph is part of a div</p>
+        <p>so is this one</p>
+        <p>this <span class="large-green">word</span> and this <span class="large-green">word</span> will be different</p>
+    </div>
+
 </body>
 
 </html>
