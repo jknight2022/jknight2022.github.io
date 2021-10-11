@@ -1,0 +1,31 @@
+.nav {
+    list-style-type: none;
+    background-color: rgb(242, 139, 79);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+ul.nav li a:hover {
+    background-color: rgb(216, 111, 73);
+    color: tomato;
+}
+
+.active {
+    background-color: silver;
+}
+
+body {
+    background-color: rgb(242, 177, 121);
+}
