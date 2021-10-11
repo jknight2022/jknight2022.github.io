@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>lets learn java script</h1>
+    <h2>how do we do on click events and alerts on an anchor</h2>
+    <a href="https://eastsideprep.org" target="_blank" onclick="alert('WARNING: You are leaving this website')">Eastside Prep</a>
+    <hr>
+    <h2>how do we change html with java with a button?</h2>
+    <p>whats my secret identity</p>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='you fool, you bufoon, you absolute moron, you heathonous beast of the depths, you thought itd be that simple huh, you disgraceful imbecile' ; document.getElementById('secret').style.display='block'">Reveal</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide</button>
+    <hr>
+    <h2>how do we change images with java?</h2>
+    <img src="images/pic_bulboff.gif" alt="light bulb" id="myimage">
+    <button onclick="document.getElementById('myimage').src='images/pic_bulbon.gif'">Turn on</button>
+    <button onclick="document.getElementById('myimage').src='images/pic_bulboff.gif'">Turn off</button>
+    <hr>
+    <h2>how do we change css styles with a button?</h2>
+    <p id="alice">Hi, I'm Alice</p>
+    <button onclick="document.getElementById('alice').style.fontSize='small' ; onclick=document.getElementById('alice').style.color='red' ;  onclick=document.getElementById('alice')">Eat Cake</button>
+    <button onclick="document.getElementById('alice').style.fontSize='large' ; onclick=document.getElementById('alice').style.color='blue'">Drink Potion</button>
+    <hr>
+    <h2>use a button to alter text shape</h2>
+    <p id="long">hello</p>
+    <button onclick="document.getElementById('long').style.textShadow='2px 2px'">shadow</button>
+</body>
+
+</html>
