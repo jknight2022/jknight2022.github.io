@@ -29,3 +29,21 @@ ul.nav li a:hover {
 .active {
     background-color: silver;
 }
+
+h1 {
+    font-family: study, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: study, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2 {
+    font-family: study, serif;
+    font-weight: 400;
+    font-style: normal;
+}
