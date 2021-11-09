@@ -1,0 +1,39 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: rgb(252, 247, 248);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(91, 97, 106);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: usual, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+div.side {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+    overflow-wrap: break-word;
+    width: 50%;
+}
+
+h1 {
+    font-family: usual, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
