@@ -20,20 +20,57 @@ ul.navbar {
 }
 
 .navbar li a:hover {
-    background-color: blue;
+    background-color: royalblue;
     color: white;
-}
-
-div.side {
-    margin-left: 10%;
-    padding: 1px 16px;
-    height: 1000px;
-    overflow-wrap: break-word;
-    width: 50%;
 }
 
 h1 {
     font-family: usual, sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+h2 {
+    font-family: usual, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+p {
+    font-family: usual, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+img.menu {
+    width: 150px;
+    height: 150px;
+}
+
+h2.section {
+    font-family: usual, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    font-family: usual, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.centermap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
